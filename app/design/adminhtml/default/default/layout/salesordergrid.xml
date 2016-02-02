@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <adminhtml_sales_order_view>
+        <reference name="order_tab_info">
+            <!--<block type="core/template" name="salesordergrid_sales_order_view_info" template="salesordergrid/sales/order/view/info.phtml" after="sales_order_edit"/>-->
+        	<action method="setTemplate">
+                <template>salesordergrid/sales/order/view/info.phtml</template>
+            </action>
+        </reference>
+    </adminhtml_sales_order_view>
+</layout>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Hitmystyle_SalesOrdergrid>
+      <version>0.1.0</version>
+    </Hitmystyle_SalesOrdergrid>
+  </modules>
+  <global>
+    <helpers>
+      <salesordergrid>
+        <class>Hitmystyle_SalesOrdergrid_Helper</class>
+      </salesordergrid>
+    </helpers>
+	<blocks>
+	  <salesordergrid>
+		<class>Hitmystyle_SalesOrdergrid_Block</class>
+	  </salesordergrid>
+			<adminhtml>
+				<rewrite>
+					<sales_order_grid>Hitmystyle_SalesOrdergrid_Block_Adminhtml_Sales_Order_Grid</sales_order_grid>
+        </rewrite>
+        <rewrite>
+          <sales_order_view_info>Hitmystyle_SalesOrdergrid_Block_Adminhtml_Sales_Order_View_Info</sales_order_view_info>
+        </rewrite>
+			</adminhtml>
+	</blocks>
+  </global>
+</config> 

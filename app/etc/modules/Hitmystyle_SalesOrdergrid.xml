@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Hitmystyle_SalesOrdergrid>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </Hitmystyle_SalesOrdergrid>
+  </modules>
+</config>
